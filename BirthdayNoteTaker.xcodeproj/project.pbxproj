@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCF77C3B2A17A6B900AABCC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF77C3A2A17A6B900AABCC7 /* AppDelegate.swift */; };
+		FCF77C3D2A17A6B900AABCC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF77C3C2A17A6B900AABCC7 /* SceneDelegate.swift */; };
+		FCF77C3F2A17A6B900AABCC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF77C3E2A17A6B900AABCC7 /* ViewController.swift */; };
+		FCF77C422A17A6B900AABCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF77C402A17A6B900AABCC7 /* Main.storyboard */; };
+		FCF77C442A17A6BB00AABCC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF77C432A17A6BB00AABCC7 /* Assets.xcassets */; };
+		FCF77C472A17A6BB00AABCC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF77C452A17A6BB00AABCC7 /* LaunchScreen.storyboard */; };
+		FCF77C522A17A6BB00AABCC7 /* BirthdayNoteTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF77C512A17A6BB00AABCC7 /* BirthdayNoteTakerTests.swift */; };
+		FCF77C5C2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF77C5B2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.swift */; };
+		FCF77C5E2A17A6BB00AABCC7 /* BirthdayNoteTakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF77C5D2A17A6BB00AABCC7 /* BirthdayNoteTakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCF77C4E2A17A6BB00AABCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF77C2F2A17A6B900AABCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF77C362A17A6B900AABCC7;
+			remoteInfo = BirthdayNoteTaker;
+		};
+		FCF77C582A17A6BB00AABCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCF77C2F2A17A6B900AABCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF77C362A17A6B900AABCC7;
+			remoteInfo = BirthdayNoteTaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCF77C372A17A6B900AABCC7 /* BirthdayNoteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayNoteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF77C3A2A17A6B900AABCC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCF77C3C2A17A6B900AABCC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCF77C3E2A17A6B900AABCC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCF77C412A17A6B900AABCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCF77C432A17A6BB00AABCC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCF77C462A17A6BB00AABCC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCF77C482A17A6BB00AABCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF77C4D2A17A6BB00AABCC7 /* BirthdayNoteTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayNoteTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF77C512A17A6BB00AABCC7 /* BirthdayNoteTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNoteTakerTests.swift; sourceTree = "<group>"; };
+		FCF77C572A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayNoteTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF77C5B2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNoteTakerUITests.swift; sourceTree = "<group>"; };
+		FCF77C5D2A17A6BB00AABCC7 /* BirthdayNoteTakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNoteTakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCF77C342A17A6B900AABCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF77C4A2A17A6BB00AABCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF77C542A17A6BB00AABCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCF77C2E2A17A6B900AABCC7 = {
+			isa = PBXGroup;
+			children = (
+				FCF77C392A17A6B900AABCC7 /* BirthdayNoteTaker */,
+				FCF77C502A17A6BB00AABCC7 /* BirthdayNoteTakerTests */,
+				FCF77C5A2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests */,
+				FCF77C382A17A6B900AABCC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCF77C382A17A6B900AABCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCF77C372A17A6B900AABCC7 /* BirthdayNoteTaker.app */,
+				FCF77C4D2A17A6BB00AABCC7 /* BirthdayNoteTakerTests.xctest */,
+				FCF77C572A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF77C392A17A6B900AABCC7 /* BirthdayNoteTaker */ = {
+			isa = PBXGroup;
+			children = (
+				FCF77C3A2A17A6B900AABCC7 /* AppDelegate.swift */,
+				FCF77C3C2A17A6B900AABCC7 /* SceneDelegate.swift */,
+				FCF77C3E2A17A6B900AABCC7 /* ViewController.swift */,
+				FCF77C402A17A6B900AABCC7 /* Main.storyboard */,
+				FCF77C432A17A6BB00AABCC7 /* Assets.xcassets */,
+				FCF77C452A17A6BB00AABCC7 /* LaunchScreen.storyboard */,
+				FCF77C482A17A6BB00AABCC7 /* Info.plist */,
+			);
+			path = BirthdayNoteTaker;
+			sourceTree = "<group>";
+		};
+		FCF77C502A17A6BB00AABCC7 /* BirthdayNoteTakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF77C512A17A6BB00AABCC7 /* BirthdayNoteTakerTests.swift */,
+			);
+			path = BirthdayNoteTakerTests;
+			sourceTree = "<group>";
+		};
+		FCF77C5A2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF77C5B2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.swift */,
+				FCF77C5D2A17A6BB00AABCC7 /* BirthdayNoteTakerUITestsLaunchTests.swift */,
+			);
+			path = BirthdayNoteTakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCF77C362A17A6B900AABCC7 /* BirthdayNoteTaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF77C612A17A6BB00AABCC7 /* Build configuration list for PBXNativeTarget "BirthdayNoteTaker" */;
+			buildPhases = (
+				FCF77C332A17A6B900AABCC7 /* Sources */,
+				FCF77C342A17A6B900AABCC7 /* Frameworks */,
+				FCF77C352A17A6B900AABCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayNoteTaker;
+			productName = BirthdayNoteTaker;
+			productReference = FCF77C372A17A6B900AABCC7 /* BirthdayNoteTaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCF77C4C2A17A6BB00AABCC7 /* BirthdayNoteTakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF77C642A17A6BB00AABCC7 /* Build configuration list for PBXNativeTarget "BirthdayNoteTakerTests" */;
+			buildPhases = (
+				FCF77C492A17A6BB00AABCC7 /* Sources */,
+				FCF77C4A2A17A6BB00AABCC7 /* Frameworks */,
+				FCF77C4B2A17A6BB00AABCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF77C4F2A17A6BB00AABCC7 /* PBXTargetDependency */,
+			);
+			name = BirthdayNoteTakerTests;
+			productName = BirthdayNoteTakerTests;
+			productReference = FCF77C4D2A17A6BB00AABCC7 /* BirthdayNoteTakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCF77C562A17A6BB00AABCC7 /* BirthdayNoteTakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCF77C672A17A6BB00AABCC7 /* Build configuration list for PBXNativeTarget "BirthdayNoteTakerUITests" */;
+			buildPhases = (
+				FCF77C532A17A6BB00AABCC7 /* Sources */,
+				FCF77C542A17A6BB00AABCC7 /* Frameworks */,
+				FCF77C552A17A6BB00AABCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCF77C592A17A6BB00AABCC7 /* PBXTargetDependency */,
+			);
+			name = BirthdayNoteTakerUITests;
+			productName = BirthdayNoteTakerUITests;
+			productReference = FCF77C572A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCF77C2F2A17A6B900AABCC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FCF77C362A17A6B900AABCC7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FCF77C4C2A17A6BB00AABCC7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FCF77C362A17A6B900AABCC7;
+					};
+					FCF77C562A17A6BB00AABCC7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FCF77C362A17A6B900AABCC7;
+					};
+				};
+			};
+			buildConfigurationList = FCF77C322A17A6B900AABCC7 /* Build configuration list for PBXProject "BirthdayNoteTaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCF77C2E2A17A6B900AABCC7;
+			productRefGroup = FCF77C382A17A6B900AABCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCF77C362A17A6B900AABCC7 /* BirthdayNoteTaker */,
+				FCF77C4C2A17A6BB00AABCC7 /* BirthdayNoteTakerTests */,
+				FCF77C562A17A6BB00AABCC7 /* BirthdayNoteTakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCF77C352A17A6B900AABCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF77C472A17A6BB00AABCC7 /* LaunchScreen.storyboard in Resources */,
+				FCF77C442A17A6BB00AABCC7 /* Assets.xcassets in Resources */,
+				FCF77C422A17A6B900AABCC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF77C4B2A17A6BB00AABCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF77C552A17A6BB00AABCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCF77C332A17A6B900AABCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF77C3F2A17A6B900AABCC7 /* ViewController.swift in Sources */,
+				FCF77C3B2A17A6B900AABCC7 /* AppDelegate.swift in Sources */,
+				FCF77C3D2A17A6B900AABCC7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF77C492A17A6BB00AABCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF77C522A17A6BB00AABCC7 /* BirthdayNoteTakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCF77C532A17A6BB00AABCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF77C5C2A17A6BB00AABCC7 /* BirthdayNoteTakerUITests.swift in Sources */,
+				FCF77C5E2A17A6BB00AABCC7 /* BirthdayNoteTakerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCF77C4F2A17A6BB00AABCC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF77C362A17A6B900AABCC7 /* BirthdayNoteTaker */;
+			targetProxy = FCF77C4E2A17A6BB00AABCC7 /* PBXContainerItemProxy */;
+		};
+		FCF77C592A17A6BB00AABCC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF77C362A17A6B900AABCC7 /* BirthdayNoteTaker */;
+			targetProxy = FCF77C582A17A6BB00AABCC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCF77C402A17A6B900AABCC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF77C412A17A6B900AABCC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCF77C452A17A6BB00AABCC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCF77C462A17A6BB00AABCC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCF77C5F2A17A6BB00AABCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCF77C602A17A6BB00AABCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF77C622A17A6BB00AABCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A365J2BWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdayNoteTaker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquiseanges.BirthdayNoteTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCF77C632A17A6BB00AABCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A365J2BWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BirthdayNoteTaker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquiseanges.BirthdayNoteTaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCF77C652A17A6BB00AABCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A365J2BWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquiseanges.BirthdayNoteTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayNoteTaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BirthdayNoteTaker";
+			};
+			name = Debug;
+		};
+		FCF77C662A17A6BB00AABCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A365J2BWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquiseanges.BirthdayNoteTakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirthdayNoteTaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BirthdayNoteTaker";
+			};
+			name = Release;
+		};
+		FCF77C682A17A6BB00AABCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A365J2BWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquiseanges.BirthdayNoteTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthdayNoteTaker;
+			};
+			name = Debug;
+		};
+		FCF77C692A17A6BB00AABCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3A365J2BWW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marquiseanges.BirthdayNoteTakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirthdayNoteTaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCF77C322A17A6B900AABCC7 /* Build configuration list for PBXProject "BirthdayNoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF77C5F2A17A6BB00AABCC7 /* Debug */,
+				FCF77C602A17A6BB00AABCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF77C612A17A6BB00AABCC7 /* Build configuration list for PBXNativeTarget "BirthdayNoteTaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF77C622A17A6BB00AABCC7 /* Debug */,
+				FCF77C632A17A6BB00AABCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF77C642A17A6BB00AABCC7 /* Build configuration list for PBXNativeTarget "BirthdayNoteTakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF77C652A17A6BB00AABCC7 /* Debug */,
+				FCF77C662A17A6BB00AABCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCF77C672A17A6BB00AABCC7 /* Build configuration list for PBXNativeTarget "BirthdayNoteTakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF77C682A17A6BB00AABCC7 /* Debug */,
+				FCF77C692A17A6BB00AABCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCF77C2F2A17A6B900AABCC7 /* Project object */;
+}
